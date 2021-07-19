@@ -5,6 +5,12 @@
     width: 750px;
     margin: 0 auto;
   }
+  &__slide {
+    width: 750px;
+    img {
+      width: 100%;
+    }
+  }
   .slick-prev,
   .slick-next {
     position: absolute;
