@@ -60,6 +60,16 @@
       margin-top: 10px;
     }
   }
+  .title {
+    &_left {
+      font-size: 27px;
+    }
+  }
+  .consultation {
+    &__descr {
+      font-size: 17px;
+    }
+  }
 }
 
 @media (max-width: 575px) {
@@ -103,5 +113,21 @@
       width: 80px;
       font-size: 12px;
     }
+  }
+  .title {
+    &_left {
+      padding: 0 10px;
+      font-size: 20px;
+    }
+  }
+  .consultation {
+    &__descr {
+      padding: 0 10px;
+      font-size: 14px;
+    }
+  }
+  .feed-form {
+    padding: 0 10px;
+    width: 100%;
   }
 }
